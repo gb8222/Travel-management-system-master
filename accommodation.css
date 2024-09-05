@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box  ;
+
+}
+
+/*where check guest section*/
+.section3full{
+    
+    position: relative;
+    left: 25vw;
+    top:-15px;
+    width: 50vw;
+    height: 10vh;
+    padding-left: 00px;
+    padding-right: 00px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(355, 100%, 66%);
+    border-radius: 20px;
+    box-shadow: 0px 4px 40px 0px rgb(63, 61, 61);
+}
+.section3full .a{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.section3full .a input{
+    height: 30px;
+    outline: none;
+}
+.section3full .b{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.section3full .b p{
+    text-align: center;
+    color: white;
+}
+.section3full .b input{
+    height: 30px;
+    outline: none;
+}
+.section3full .c{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.section3full .c p{
+    text-align: center;
+    color: white;
+}
+.section3full .c input{
+    height: 30px;
+    outline: none;
+}
+.section3full .d{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.section3full .d select{
+    height: 30px;
+}
+.section3full .e{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.section3full .e .submitbutton{
+    height: 30px;
+    width: 50px;
+
+}
+
+
+/*middle */
+.middleblock{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*middleblock leftblock*/
+.middleblock .leftblock{
+    position:sticky;
+    top: 100px;
+    background-color: #fdeb4c;
+    border-radius: 20px;
+    height: fit-content;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    
+    box-shadow: 0px 0px 40px 0px rgb(201, 197, 179);
+}
+.middleblock .leftblock h3{
+    padding-bottom: 10px;
+}
+.middleblock .leftblock .searchbutton{
+    display: flex;
+    justify-content: center;
+}
+.middleblock .leftblock .searchbutton .searchbutton1{
+    background-color: rgb(116, 153, 255);
+    border-radius: 10px;
+    border: transparent;
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.middleblock .leftblock .searchbutton .searchbutton1:hover{
+    background-color: #333;
+    transition: .5s;
+}
+/*edited to flex wrap harigiya pahalata wetena*/
+.middleblock .rightblock{
+    padding-left: 00px;
+    width: 100vw;
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    
+}
+
+.middleblock .rightblock .list{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.middleblock .rightblock .list .box{
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(199, 196, 196, 0.8);
+}
+.middleblock .rightblock .list .box:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px 0px rgb(73, 72, 72);
+}
+.middleblock .rightblock .list .box img{
+    height:200px;
+    width: 18vw;
+    object-fit: cover;
+}
+

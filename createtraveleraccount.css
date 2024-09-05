@@ -1,0 +1,71 @@
+body{
+    background: url("Travel-1.jpg");
+    background-size: cover;
+}
+.form-container{
+    /*min-height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    
+
+}
+.form-container .form{
+  
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.form-container .form .h3{
+   text-transform: uppercase;
+    font-size: 30px;
+   color: #333;
+    margin-bottom: 10px;
+    
+}
+.form-container .form .input{
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px 15px;
+    background: #eee;
+    font-size: 17px;
+    border-radius: 5px;
+   
+}
+.form-container .form .select .option{
+ 
+    background: #fff;
+    
+}
+.form-container .form .nextbutton{
+    background: #fdfdfd;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form-container .form .nextbutton:hover{
+    background: crimson;
+    color: #fff;
+}
+.form-container .form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color: #333;
+}
+.form-container .form .p a{
+    color: crimson;
+}
+.form-container .form .error-msg{
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}

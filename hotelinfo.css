@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-right: 50px;
+    justify-content: flex-end;
+    width: 90vw;
+
+    
+
+
+
+}
+
+.uppercontent{
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    padding-right: 200px;
+}
+
+.uppercontent .daysinputfield{
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(118, 187, 248);
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.uppercontent .addtocartbutton{
+    height: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(118, 187, 248);
+    cursor: pointer;
+}
+
+.container .leftcontent{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 40px 0px rgb(73, 72, 72);
+    
+
+}
+.container .bottomcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 50px;
+    border-radius: 40px;
+    padding-top: 30px;
+    width: 1150px;
+    height: 300px;
+    box-shadow: 0px 0px 40px 0px rgb(73, 72, 72);
+
+}
+.container .mid1{
+    
+    top: 100px;
+    left: 450px;
+    display: flex;
+    height: fit-content;
+    width: 750px;
+    
+
+    
+    
+    
+
+
+}
+.container .mid2{
+    
+    top: 100px;
+    left: 450px;
+    display: flex;
+    height: fit-content;
+    width: 750px;
+    
+    
+    
+
+
+}
+
+.container .mid1 .leftupbox{
+    
+    
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    border: 2px solid black;
+
+    
+    
+    
+    
+}
+.container .mid1 .rightupbox{
+
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    border: 2px solid black;
+    
+    
+    
+    
+}
+.card1{
+
+
+    display: flex;
+    height: 400px;
+    width:  fit-content;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 40px 0px rgb(73, 72, 72);
+    
+
+}
+
+.card{
+
+    display: flex;
+    height: 300px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 40px 0px rgb(73, 72, 72);
+    
+
+}
+.card1 img{
+   
+    padding-top: 0px;
+    height: 400px;
+    width: 375px;
+}
+.card img{
+    
+    height: 300px;
+    width: 250px;
+}
+
+.container .mid2 .botleft1{
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    border: 2px solid black;
+    height: fit-content;
+
+    
+}
+
+.container .mid2 .botleft2{
+    display: flex;
+
+    width: 250px;
+
+    justify-content: center;
+    border: 2px solid black;
+    height: fit-content;
+    
+}
+.container .mid2 .botleft3{
+    
+    display: flex;
+
+    width: 255px;
+
+    justify-content: center;
+    border: 2px solid black;
+    height: fit-content;
+}

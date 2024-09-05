@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*upper body image*/
+.upper_body{
+    position: relative;
+}
+.upper_body .g8image{
+    box-shadow: 0px 4px 40px 0px rgb(63, 61, 61);
+    width: 100%;
+    height: 60vh;
+}
+.upper_body .text{
+    line-height: 1;
+    
+    position: absolute;
+    height: 42vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #105372;
+    padding: 10px 50px 10px 30px;
+    padding-top: 100px;
+    background:rgba(255, 255, 255, 0.4);
+    border-radius: 30px 300px 500px 200px;
+    top: 1vh;
+}
+.upper_body .text .text_1{
+
+}
+    
+/*section 3*/
+.section3full{
+    
+    position: relative;
+    left: 25vw;
+    top:-15px;
+    width: 50vw;
+    height: 10vh;
+    padding-left: 00px;
+    padding-right: 00px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(355, 100%, 66%);
+    border-radius: 20px;
+    box-shadow: 0px 4px 40px 0px rgb(63, 61, 61);
+}
+.section3full .a{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.section3full .a input{
+    height: 30px;
+    outline: none;
+}
+.section3full .b{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.section3full .b p{
+    text-align: center;
+    color: white;
+}
+.section3full .b input{
+    height: 30px;
+    outline: none;
+}
+.section3full .c{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.section3full .c p{
+    text-align: center;
+    color: white;
+}
+.section3full .c input{
+    height: 30px;
+    outline: none;
+}
+.section3full .d{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.section3full .d select{
+    height: 30px;
+}
+.section3full .e{
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.section3full .e .submitbutton{
+    height: 30px;
+    width: 50px;
+
+}
+/* 4th section*/
+.top-hotels-texta{ 
+    padding-left: 80px;
+    font-size: 40px;
+}
+.top-hotels-text{ 
+    padding-top: 60px;
+    padding-left: 80px;
+    font-size: 40px;
+}
+.box-container1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-container1 .box{
+    box-shadow: 0px 0px 10px 0px rgba(199, 196, 196, 0.8);
+}
+.box-container1 .box:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 40px 0px rgb(73, 72, 72);
+}
+.box-container1 .box img{
+    height:300px;
+    width: 20vw;
+    object-fit: cover;
+}
+
+/*footer css*/
+.footer{
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    padding: 10px 0px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color:#333;
+}
+.footer div{
+    text-align: center;
+}
+
+.footer .img1{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+}
+.footer .img{
+
+    height: 150px;
+    width: 300px;
+    border-radius: 40px;
+}
+.footer div h1{
+    color: aliceblue;
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.footer div h3{
+    color: white;
+    font-weight: 200;
+}
+.footer div h6{
+    color: white;
+    font-weight: 200;
+}
+.footer .midblock1 ul li{
+    padding-top: 5px;
+    list-style: none;
+}
+.footer .midblock1 ul li a{
+    text-decoration: none;
+    color: bisque;
+}
+.footer .midblock1 ul li a:hover{
+    transition: .5s;
+    color: rgb(255, 255, 255);
+}
+.footer form input{
+    width: 400px;
+    height:35px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+}
+.footer form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+

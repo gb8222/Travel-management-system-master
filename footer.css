@@ -1,0 +1,74 @@
+.footer{
+
+    bottom:10 px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+    padding: 10px 0px;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color:#333;
+}
+.footer div{
+    text-align: center;
+}
+
+.footer .img1{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+}
+.footer .img{
+
+    height: 150px;
+    width: 300px;
+    border-radius: 40px;
+}
+.footer div h1{
+    color: aliceblue;
+    font-weight: 300;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.footer div h3{
+    color: white;
+    font-weight: 200;
+}
+.footer div h6{
+    color: white;
+    font-weight: 200;
+}
+.footer .midblock1 ul li{
+    padding-top: 5px;
+    list-style: none;
+}
+.footer .midblock1 ul li a{
+    text-decoration: none;
+    color: bisque;
+}
+.footer .midblock1 ul li a:hover{
+    transition: .5s;
+    color: rgb(255, 255, 255);
+}
+.footer form input{
+    width: 400px;
+    height:35px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    outline: none;
+    border: none;
+}
+.footer form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
